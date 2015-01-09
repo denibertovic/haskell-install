@@ -6,7 +6,7 @@
 
 # Change this if wanting different version
 GHC_VERSION=7.8.4
-CABAL_VERSION=1.22.0.0
+CABAL_VERSION=1.20.0.6
 
 # URLs get builed based on the variables above
 GHC_URL=https://www.haskell.org/ghc/dist/${GHC_VERSION}/ghc-${GHC_VERSION}-x86_64-unknown-linux-deb7.tar.xz
