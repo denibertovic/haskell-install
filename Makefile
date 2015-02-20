@@ -31,8 +31,8 @@ check:
 		exit 1; \
 	fi
 
-deps: check
-	sudo apt-get install libgmp-dev
+deps:
+	sudo apt-get install libgmp-dev build-essential
 
 temp-dir:
 	@echo "Making temp directory ${BUILD_DIR}..."
